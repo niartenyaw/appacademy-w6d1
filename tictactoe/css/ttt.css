@@ -1,0 +1,40 @@
+p, ul, li {
+  padding: 0;
+  margin: 0;
+
+}
+
+ul {
+
+  width: 80%;
+  height: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  flex: 1 0 33.33%;
+  height: 33.33%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-color: gray;
+  list-style: none;
+  font-size: 120pt;
+  text-align: center;
+}
+
+p img {
+  height: 100%;
+  width: 100%;
+}
+
+
+li:hover {
+  background-color: yellow;
+}
+
+/*li:after {
+  content: "";
+  display: block;
+  clear: both;
+}*/
